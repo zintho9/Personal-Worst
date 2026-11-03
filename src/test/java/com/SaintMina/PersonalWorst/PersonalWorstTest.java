@@ -1,13 +1,13 @@
-package com.example;
+package com.SaintMina.PersonalWorst;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class PersonalWorstTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(PersonalWorstPlugin.class);
 		RuneLite.main(args);
 	}
 }
